@@ -1,0 +1,37 @@
+/**
+ * Estilos para las vistas de admin de resultados.
+ */
+
+.result-page-wrapper .tablenav .search-box {
+	position: inherit;
+}
+
+/* Hace más grueso el tipo de letra de los headers y footers de la tabla */
+.widefat tfoot td,
+.widefat th,
+.widefat thead td {
+	font-weight: 700;
+}
+
+/* Agrega el border a las filas de la tabla */
+.widefat tbody td {
+	border-top: 1px solid #dfe0e2;
+	border-bottom: 1px solid #dfe0e2;
+}
+
+/* Estilos para la columna de porcentajes */
+.column-answer_frequency p {
+	font-weight: 500;
+}
+
+.column-answer_frequency .max-percentage {
+	color: #56c65f;
+}
+
+.column-answer_frequency .min-percentage {
+	color: #f70000;
+}
+
+.column-answer_frequency .max-percentage.min-percentage {
+	color: black;
+}
