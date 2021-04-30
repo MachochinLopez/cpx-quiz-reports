@@ -1,0 +1,1 @@
+Plugin diseñado para la página de Ánima.
